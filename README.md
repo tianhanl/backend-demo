@@ -1,6 +1,6 @@
 ## Demo Server
 
-A demo server for `next-demo-fronted`
+A demo server for `demo-frontend`
 
 ## Install Dependency
 
@@ -11,11 +11,11 @@ npm i
 ## Configuration
 
 To configure this server, please change the corresponding items in `.env.example`
-file, remove the `.example` part when you are satify with the configuration.
+file, and remove the `.example` part when you are satify with the configuration.
 
 ## Usage
 
 ```bash
-# start server
+# starts server
 npm run start
 ```
