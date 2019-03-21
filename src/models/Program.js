@@ -5,7 +5,7 @@ const imagePath = process.env.IMAGE_PATH || '';
 const DEMO_PROGRAM = {
   title: '免费午餐小善大爱',
   subtitle: '达成目标竞猜娱乐场将为小朋友支持37500份免费午餐',
-  imageSrc: `${domain}:${port}/${imagePath}/test.png`,
+  imageSrc: `http://${domain}:${port}/${imagePath}/test.png`,
   programTargetNumber: 15000000,
   programTargetText: '爱心筹集目标数量',
   programRasiedNumber: 1234825,
@@ -15,7 +15,8 @@ const DEMO_PROGRAM = {
   userContributionNumber: 0.14,
   userContributionText: '为项目贡献',
   userContributionUnit: '份午餐',
-  readMoreUrl: '#'
+  readMoreUrl: '#',
+  term: '01期'
 };
 
 // Handles Interactions with Program Model

@@ -12,12 +12,7 @@ const port = process.env.SERVER_PORT || 3001;
 app.use(express.static('public'));
 
 // Enabling CORS for APIs
-const corsOptions = {
-  orgin: process.env.CORS_ORIGIN || 'localhost',
-  optionsSuccessStatus: 200
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 
 // APIs
 // programs
